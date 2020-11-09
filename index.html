@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechAkhil | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="src/swiper-bundle.min.css">
+    <script src="src/swiper-bundle.min.js"></script>
+    <script src="src/parallax.js"></script>
+    <link rel="stylesheet"
+        href="https://cdn.discordapp.com/attachments/765973145852575746/766318833690214460/hamburgers.min.css">
+</head>
+
+<body>
+    <!-- splashscreen -->
+    <section class="intro">
+        <div class="text flicker">
+            <p class="t1 para">It was a brilliant cold day of walk and the timekeepers were striking thirteen,</p>
+        </div>
+        <div class="text flicker">
+            <p class="t2 para">there was a kid referred generally as TechAkhil, picked the way of coding to stroll along
+                the
+                remainder of the existence with a point,</p>
+        </div>
+        <div class="text flicker">
+            <p class="end para">let there be no reasons, no clarifications, no second thoughts and a grin on his face
+                while he
+                warmly greet the unavoidable demise. <br><br><br> --click to know more--
+            </p>
+        </div>
+    </section>
+    <!-- /splashscreen -->
+
+    <!-- main -->
+    <div class="main">
+        <!-- floating icons -->
+        <div class="floatingIcons">
+            <div class="items">
+                <a class="brand" href=""><img src="src/img/logo.png" alt="" srcset=""></a>
+                <div class="item__right">
+                    <a href="https://www.linkedin.com/in/akhil-padmanabhan-8385781a9/" class="linkedin"
+                        style="color: #2867B2;" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/techakhilc47" class="github" style="color: #fff;" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-github"></i></i></a>
+                    <a href="https://www.instagram.com/techakhil.me/" class="instagram" target="_blank"
+                        rel="noopener noreferrer" style="color: transparent;
+                background: #d6249f;
+                background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+                background-clip: text;
+                -webkit-background-clip: text;"><i class="fab fa-instagram light"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- /floating icons -->
+        <!-- menu -->
+        <div class="container-menu">
+            <div class="menu">
+                <ul class="nav">
+                    <li class="options"><a onclick="moveto(0)">Home</a></li>
+                    <li class="options"><a onclick="moveto(1)">About</a></li>
+                    <li class="options"><a onclick="moveto(2)">Skills</a></li>
+                    <li class="options"><a onclick="moveto(3)">Contact</a></li>
+                </ul>
+            </div>
+            <button class="hamburger hamburger--spin" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+        <!-- end menu -->
+        <!-- Content slide -->
+        <div class="swiper-slides">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slides" id="HOME">
+                    <section class="page home">
+                        <div class="connect">HOME <br>
+                            Under development swipe below
+                        </div> 
+                    </section>
+                </div>
+                <div class="swiper-slide slides"><div class="connect">About <br>
+                    Under development swipe below
+                </div> </div>
+                <div class="swiper-slide slides" id="SKILLS">
+                    <section class="page skills">
+
+                        <!-- skillspage -->
+                        <div class="container">
+                            <div class="left">
+                                <div class="skill_title" onclick="rev()">
+                                    SKILLS
+                                </div>
+                                <div class="skill_container">
+                                    <div class="skill">
+                                        <div class="skill_name">
+                                            C++
+                                        </div>
+                                        <div class="skill_bar cpp">
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill_name">
+                                            Python
+                                        </div>
+                                        <div class="skill_bar python">
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill_name">
+                                            Jquery
+                                        </div>
+                                        <div class="skill_bar jquery">
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill_name">
+                                            HTML
+                                        </div>
+                                        <div class="skill_bar html">
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill_name">
+                                            CSS
+                                        </div>
+                                        <div class="skill_bar css">
+                                        </div>
+                                    </div>
+                                    <div class="skill">
+                                        <div class="skill_name">
+                                            JavaScript
+                                        </div>
+                                        <div class="skill_bar javascript">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="right">
+                                <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+                                <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700"
+                                    rel="stylesheet">
+                                <div class="mainWrapper">
+                                    <div class="menuWrapper designCont">
+                                        <button class="threedee-typo designtext trigger">
+                                            Design
+                                        </button>
+                                        <ul class="menuItems">
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/769057455304736808/Vector.svg"></img>
+                                                    <div class="tooltip">Photoshop</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/771458382330593330/Vector.png"></img>
+                                                    <div class="tooltip">Illustrator</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/771458377732587540/Group_15.png"></img>
+                                                    <div class="tooltip">PowerPoint</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/771458378777493524/Group_16.png"></img>
+                                                    <div class="tooltip">Figma</div>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+
+                                    </div>
+
+
+                                    <div class="menuWrapper codeCont">
+                                        <button class="threedee-typo designtext codetext trigger">
+                                            Code
+                                        </button>
+                                        <ul class="menuItems">
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675741581246464/Vector-8.png"></img>
+                                                    <div class="tooltip">C++</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675719955152926/python.png"></img>
+                                                    <div class="tooltip">Python</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675729622237194/Vector-2.png"></img>
+                                                    <div class="tooltip">Javascript</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675731942211605/Vector-3.png"></img>
+                                                    <div class="tooltip">React</div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675820085116928/Vector-9.png"></img>
+                                                    <div class="tooltip">Django</div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675739932098560/Vector-7.png"></img>
+                                                    <div class="tooltip">CSS</div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675738406158336/Vector-6.png"></img>
+                                                    <div class="tooltip">HTML</div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675736874188830/Vector-5.png"></img>
+                                                    <div class="tooltip">Selenium</div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675724895649792/Vector.png"></img>
+                                                    <div class="tooltip">Jquery</div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div class="icon">
+                                                    <img class="iconimg"
+                                                        src="https://cdn.discordapp.com/attachments/765973145852575746/774675727546712134/Vector-1.png"></img>
+                                                    <div class="tooltip">LOVE</div>
+                                                </div>
+                                            </li>
+
+
+                                        </ul>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+                    </section>
+                </div>
+                <div class="swiper-slide slides" id="CONNECTWITHME">
+                    <section class="page connectwithme">
+                        <div class="connect">CONNECT<br> WITH <br> ME</div>
+                        <div class="grid-container">
+                            <div class="gridbox">
+                                <a href="https://www.facebook.com/akhilc.47/" target="blank">
+                                    <img class="social" id="fb"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463311020130304/facebook.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://github.com/techakhilc47/" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463312530341928/github.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://discord.com/users/689358308712513766" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463308030640128/discord.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=techakhilc47@gmail.com&su=Portfolio - I have something for you&body=excited to know you" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463313943691304/gmail.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://www.linkedin.com/in/akhil-padmanabhan-8385781a9/" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463319547412521/linkedin.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://dev.to/techakhilc47" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463304858959892/dev.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://open.spotify.com/user/316xdrzidluzl4jgxpymgiry6fhi" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463325880680478/spotify.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://www.instagram.com/techakhil.me/" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463317047345182/instagram.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://twitter.com/techakhil_me" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/775394227617660948/twitter.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://www.youtube.com/channel/UC-7RagECtAh3LWhj0NNq-Ag" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463350157312080/youtube.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://dribbble.com/techakhil" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/767463309958971452/dribbble.png"></img>
+                                </a>
+                            </div>
+                            <div class="gridbox">
+                                <a href="https://codepen.io/techakhilc47" target="blank">
+                                    <img class="social"
+                                        src="https://cdn.discordapp.com/attachments/765973145852575746/775398802442027048/codepen.png"></img>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
+
+    <script>
+        var $hamburger = $(".hamburger");
+        var $options = $(".options");
+        var $menu = $(".menu");
+        $hamburger.on("click", function (e) {
+            $hamburger.toggleClass("is-active");
+            $options.toggleClass("reveal")
+            $menu.toggleClass("slidout")
+            // Do something else, like open/close menu
+        });
+    </script>
+    <script>
+        var slider = new Swiper('.swiper-slides', {
+            direction: 'vertical',
+            slidesPerView: 1,
+            spaceBetween: 0,
+            mousewheel: true,
+            resistanceRatio: 0,
+        });
+
+        function anim() {
+            $("body").removeClass("preload");
+        };
+
+        function rev(reveal) {
+            if (reveal) {
+
+                $(".skill_bar").toggleClass("reveal_bar");
+            } else if ($(".skill_bar").hasClass("reveal_bar")) {
+                $(".skill_bar").toggleClass("reveal_bar");
+            }
+
+        };
+
+        slider.on('transitionEnd', function () {
+            rev(false)
+            if (slider.realIndex == 2) {
+                rev(true)
+            };
+        });
+
+
+
+        function moveto(index) {
+            slider.slideTo(index);
+        }
+    </script>
+    <!-- splash -->
+    <script>
+        $(".main").fadeOut(1);
+        $(".intro").on("click", function (event) {
+            $(".intro").fadeOut(1000);
+            $(".main").fadeIn(1000);
+        });
+    </script>
+    <!-- end scripts -->
+</body>
+
+</html>
