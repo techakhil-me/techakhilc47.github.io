@@ -360,7 +360,7 @@ section {
     display: flex; 
     flex-direction: column;
     justify-content: space-between;
-    height: 7%;
+    height: 10vh;
     padding-top: 8%;
 }
 
@@ -388,7 +388,7 @@ section {
 
 .skill_bar {
     background: #e5e5e5;
-    height: 20px;
+    height: 10px;
     min-height: 2px;
     transform: translatex(-100%);
     transition: all 2000ms linear;
