@@ -494,4 +494,7 @@ section {
   .home__title{
     width: 300px;
   }
+  .connect {
+    height: 100px;
+  }
 }
