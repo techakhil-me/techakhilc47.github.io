@@ -80,14 +80,32 @@
         <div class="swiper-slides">
             <div class="swiper-wrapper">
                 <div class="swiper-slide slides" id="HOME">
-                    <section class="page home">
+                    
+                    <section class="page home">             
+                        <div class="home__bg">
+
+                            <img class="topbg"
+                                src="https://cdn.discordapp.com/attachments/765973145852575746/776757708166529044/tech.gif"
+                                alt="">
+                            <img class="bottombg"
+                                src="https://cdn.discordapp.com/attachments/765973145852575746/776757677367885864/akhil.gif"
+                                alt="">
+
+                        </div>
                         <div class="home__horizontalbar" id="green"></div>
                         <!-- <div class="home__title">
                             I am <span class="home__hero">TechAkhil</span>
                         </div> -->
-                        <img src="https://cdn.discordapp.com/attachments/765973145852575746/776702252957958184/I_am_TechAkhil.png"
+                        <img class="home__title" src="https://cdn.discordapp.com/attachments/765973145852575746/776702252957958184/I_am_TechAkhil.png"
                             alt="">
                         <div class="home__horizontalbar" id="white"></div>
+                        <div class="home__mail">
+                            <span class="label">Hello, I’m Akhil Padmanabhan,<br> UX/UI Designer
+                                and Front-end Developer <br>
+                                Based in India.</span><br>
+                            <img src="https://cdn.discordapp.com/attachments/765973145852575746/776748115260604446/mail.svg"
+                                alt="">
+                        </div>
                     </section>
                 </div>
                 <div class="swiper-slide slides">
@@ -213,13 +231,16 @@
 
 
         slider.on('transitionEnd', function () {
-
+            $(".floatingIcons").fadeIn();
             if (slider.realIndex == 0) {
                 $green.addClass('green')
                 $white.addClass('white')
             } else {
                 $green.removeClass('green')
                 $white.removeClass('white')
+            }
+            if (slider.realIndex == 3) {
+                $(".floatingIcons").fadeOut(200);
             }
         });
 

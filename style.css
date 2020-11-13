@@ -109,7 +109,7 @@ body {
 }
 .options a:hover {
   text-decoration: none;
-  color: #ffeba7;
+  color: #7aeb09;
 }
 .options a:after {
   display: block;
@@ -120,7 +120,7 @@ body {
   margin-top: 0.1rem;
   width: 0;
   left: 0;
-  background-color: #353746;
+  background-color: #7aeb09;
   opacity: 0.8;
   transition: width 250ms linear;
 }
@@ -339,6 +339,33 @@ section {
 }
 
 /* home bg */
+
+.home__bg {
+  /* position: absolute; */
+  
+}
+
+#stars {
+  position: absolute;
+	width: 100%;
+	height: 700vh;
+	z-index: 1;
+}
+
+.bottombg{
+  position: absolute;
+  left: -340px;
+  bottom: 0;
+  /* z-index: -1; */
+}
+
+.topbg{
+  position: absolute;
+  right: -200px;
+  top: 0;
+  /* z-index: -1; */
+}
+
 .home {
   display: flex;
   width: 100%;
@@ -348,6 +375,7 @@ section {
 }
 
 .home__title {
+  position: absolute;
   font-family: Rubik;
   font-style: normal;
   font-weight: bold;
@@ -355,17 +383,14 @@ section {
   line-height: 114px;
   color: #ffffff;
   text-shadow: 4px 4px 4px grey;
+  z-index: 1;
 }
-.home__hero{
-  color:#7aeb09;
-}
-
 
 .home__horizontalbar {
   width: 280px;
   height: 8px;
   border-radius: 8px;
-  margin: 40px;
+  margin: 80px;
   
 }
 
@@ -379,6 +404,13 @@ section {
   background:white;
   transform: translateX(280px);
   transition: transform 1s ease-in-out;
+}
+
+
+.home__mail{
+  position: absolute;
+  left:12px;
+  bottom: 12px;
 }
 /* skills page */
 
@@ -458,5 +490,8 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .home__title{
+    width: 300px;
   }
 }
