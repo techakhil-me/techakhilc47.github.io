@@ -449,7 +449,7 @@ section {
   transition: 0.5s ease-in-out;
 }
 .grid-container div a img {
-  width: 50%;
+  width: 40%;
   height: auto;
   transition: 0.5s ease-in-out;
 }
